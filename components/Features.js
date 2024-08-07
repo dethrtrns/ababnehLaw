@@ -57,6 +57,8 @@ const useStyles = createStyles((theme) => ({
   },
 
   card: {
+    color: 'white',
+    backgroundColor: '#58595b',
     border: `1px solid ${
       theme.colorScheme === "dark" ? theme.colors.dark[5] : theme.colors.gray[1]
     }`,
@@ -89,7 +91,7 @@ export default function Features() {
       <Text size='lg' weight={500} className={classes.cardTitle} mt='md'>
         {feature.title}
       </Text>
-      <Text size='sm' color='dimmed' mt='sm'>
+      <Text size='sm' mt='sm'>
         {feature.description}
       </Text>
     </Card>
