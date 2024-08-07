@@ -138,6 +138,7 @@ export default function Hero() {
             solutions to clients across Jordan and the MENA Region.
           </Text>
           <Title
+            mt={36}
             // c={"dark"}
             fz={28}
             className={classes.title}>

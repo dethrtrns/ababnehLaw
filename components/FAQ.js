@@ -52,7 +52,9 @@ export default function FAQ() {
             span={12}
             md={6}>
             <Image
-              src={image.src}
+              src={'/faq.jpg'}
+              height={600}
+              width={500}
               alt='Frequently Asked Questions'
             />
           </Col>

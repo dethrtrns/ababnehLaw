@@ -144,7 +144,8 @@ export default function Features() {
         className={classes.title}
         align='center'
         mt='sm'>
-        We provide legal counsel in a wide variety of corporate matters.
+        We provide legal counsel in a wide variety of
+        <Text component="span" c={'blue'}> Corporate matters.</Text>
       </Title>
 
       <Text
@@ -152,40 +153,14 @@ export default function Features() {
         className={classes.description}
         align='center'
         mt='md'>
-        Never has the
-        Jordanian business landscape been as dynamic or competitive — nor has
-        the global economy been as precarious. With these factors in mind, smart
-        enterprises of all sizes recognize the need for an agile, skilled and
-        trustworthy business law firm to navigate regulatory complexities and
-        help forge a successful path forward. Ababneh law & Arbitration (ALA) is
-        the trusted legal counsel of a wide range of Jordanian businesses and
-        corporations and works closely with international players conducting
-        business in Jordan and the MENA Region. Our lawyers have the
-        industry-specific expertise and client service excellence you’re looking
-        for in a professional business law firm. Whether a multi-hundred million
-        dollar corporation, a startup seeking first-mover advantage, a business
-        looking to outsource operations, or a NGO carrying out your mission,
-        ALA’s legal professionals are equipped to provide your organization with
-        pragmatic guidance and leadership. Our clients know they can count on
-        ALA’s experience and expertise in corporate and commercial law to give
-        them real advantages in the incorporation, establishment and growth of
-        their businesses. ALA designs and implements tax-efficient business
-        structures that protect our clients’ interests while recognizing
-        opportunities. Our business lawyers also collaborate with the firm’s
-        employment and labor relations, real estate and property, intellectual
-        property, banking and finance, insurance, commercial and transactional
-        matters, regulatory issues and business solutions to ensure a
-        well-rounded service. Clients looking to develop effective outsourcing
-        strategies and draft binding business outsourcing agreements are well
-        served by ALA’s outsourcing law specialists. We bring together experts
-        in contracting, licensing, intellectual property, taxation, and other
-        areas to deliver a complete solution that meets each client’s unique
-        business goals. We have assisted companies that are seeking to outsource
-        — as well as outsourcing providers — with joint ventures, strategic
-        alliances and outsourcing arrangements. We also work with NGO’ and
-        not-for-profit organizations and have extensive experience with in
-        helping organizations meet their unique operational challenges and craft
-        a strong legal foundation to build upon.
+        Never has the Jordanian business landscape been as dynamic or
+        competitive — nor has the global economy been as precarious. With these
+        factors in mind, smart enterprises of all sizes recognize the need for
+        an agile, skilled and trustworthy business law firm to navigate
+        regulatory complexities and help forge a successful path forward.
+        Ababneh law & Arbitration (ALA) is the trusted legal counsel of a wide
+        range of Jordanian businesses and corporations and works closely with
+        international players conducting business in Jordan and the MENA Region.
         {/* {`Never has the Jordanian business landscape been as dynamic or competitive — nor has the global economy been as precarious. With these factors in mind, smart enterprises of all sizes recognize the need for an agile, skilled and trustworthy business law firm to navigate regulatory complexities and help forge a successful path forward.
 Ababneh law & Arbitration (ALA) is the trusted legal counsel of a wide range of Jordanian businesses and corporations and works closely with international players conducting business in Jordan and the MENA Region. Our lawyers have the industry-specific expertise and client service excellence you’re looking for in a professional business law firm.
 Whether a multi-hundred million dollar corporation, a startup seeking first-mover advantage, a business looking to outsource operations, or a NGO carrying out your mission, ALA’s legal professionals are equipped to provide your organization with pragmatic guidance and leadership.
