@@ -9,7 +9,7 @@ import { useRouter } from "next/router";
 
 export default function App({ Component, pageProps }) {
   const router = useRouter();
-  const [colorScheme, setColorScheme] = useState("light");
+  const [colorScheme, setColorScheme] = useState("dark");
   // const ref = useRef(null);
 
   useEffect(() => {
@@ -34,7 +34,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Ratna Associates</title>
+        <title>Ababneh Law & Arbitration(ALA)</title>
         <meta
           name='viewport'
           content='minimum-scale=1, initial-scale=1, width=device-width'

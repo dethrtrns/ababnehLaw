@@ -249,7 +249,7 @@ export default function HeaderMiddle() {
                 style={{
                   aspectRatio: "1/1",
                 }}
-                alt='Ratna Associates'
+                alt='Ababneh Law'
               />
             </Button>
             {/* <Burger TODO: add nav menu for mobile devices
@@ -277,8 +277,7 @@ export default function HeaderMiddle() {
               <ActionIcon
                 component='a'
                 target='_blank'
-                href='https://www.google.com/search?q=ratna+singh+advocate+lucknow&rlz=1C1CHBF_enIN964IN964&sxsrf=ALiCzsZdt26cu0MGYF7TQ5OxAp6vePAYSg%3A1672578124867&ei=TISxY92yNNSMseMPpOqGqA8&ved=0ahUKEwjdiPeHt6b8AhVURmwGHSS1AfUQ4dUDCBA&uact=5&oq=ratna+singh+advocate+lucknow&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIECCMQJzIECCMQJzoHCCMQsAMQJzoOCC4QgAQQxwEQrwEQsAM6CAgAEIYDELADOgYIABAWEB46BQgAEIYDOgUIIRCgAUoECEEYAUoECEYYAFC7BFiALWD_Q2gCcAB4AIABrAGIAYkKkgEDMC45mAEAoAEByAEHwAEB&sclient=gws-wiz-serp'
-                // 'https://www.google.com/search?q=ratna+singh+advocate&rlz=1C1CHBF_enIN964IN964&oq=ratna+singh+advocate&aqs=chrome..69i57j0i390.6271j0j7&sourceid=chrome&ie=UTF-8'
+                href='https://www.google.com/search?q=ABABNEH+LAW+%26+ARBITRATION&rlz=1C1CHBF_enIN964IN964&oq=ABABNEH+LAW+%26+ARBITRATION&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg9MgYIAhBFGDzSAQgxMjYwajBqOagCALACAQ&sourceid=chrome&ie=UTF-8'
                 color={theme.primaryColor}
                 className={classes.iconBack}
                 size='lg'>
@@ -295,7 +294,7 @@ export default function HeaderMiddle() {
               <ActionIcon
                 component='a'
                 target='_blank'
-                href='#' //'https://www.facebook.com/ratnoja.singh.rathore/'
+                href='https://www.google.com/search?q=ABABNEH+LAW+%26+ARBITRATION&rlz=1C1CHBF_enIN964IN964&oq=ABABNEH+LAW+%26+ARBITRATION&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg9MgYIAhBFGDzSAQgxMjYwajBqOagCALACAQ&sourceid=chrome&ie=UTF-8'
                 color={theme.primaryColor}
                 className={classes.iconBack}
                 size='lg'>
@@ -312,7 +311,7 @@ export default function HeaderMiddle() {
               <ActionIcon
                 component='a'
                 target='_blank'
-                href='https://www.justdial.com/Lucknow/Ratna-Singh-Advocate-Near-Malhaur-Station-Gomti-Nagar/0522PX522-X522-140413062127-G5N1_BZDET'
+                href='https://www.google.com/search?q=ABABNEH+LAW+%26+ARBITRATION&rlz=1C1CHBF_enIN964IN964&oq=ABABNEH+LAW+%26+ARBITRATION&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg9MgYIAhBFGDzSAQgxMjYwajBqOagCALACAQ&sourceid=chrome&ie=UTF-8'
                 color={theme.primaryColor}
                 size='lg'>
                 <IconCircleLetterJ

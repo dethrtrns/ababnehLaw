@@ -260,7 +260,7 @@ export default function Footer() {
         <Text
           color='dimmed'
           size='sm'>
-          © 2002 ratna associates All rights reserved.
+          © 2008 Ababneh Law & Arbitration(ALA) All rights reserved.
         </Text>
 
         <Group
