@@ -17,8 +17,8 @@ const useStyles = createStyles((theme) => ({
     backgroundImage:
       "url(https://images.unsplash.com/photo-1589994965851-a8f479c573a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGxlZ2FsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60)",
     backgroundSize: "cover",
-    backgroundColor: theme.primaryColor,
-    backgroundBlendMode: "luminosity",
+    // backgroundColor: theme.primaryColor,
+    // backgroundBlendMode: "luminosity",
     backgroundPosition: "center",
 
     "@media (max-width: 520px)": {
@@ -96,7 +96,7 @@ const useStyles = createStyles((theme) => ({
 
   secondaryControl: {
     color: theme.white,
-    backgroundColor: "rgba(255, 255, 255, .4)",
+    backgroundColor: "rgba(255, 255, 255, .2)",
 
     "&:hover": {
       backgroundColor: "rgba(255, 255, 255, .45) !important",
