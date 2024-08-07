@@ -142,6 +142,8 @@ export default function Hero() {
           <Button
             className={classes.control}
             variant='white'
+            c={"white"}
+            bg={"#58595b"}
             size='lg'
             onClick={(event) => {
               // event.preventDefault();
@@ -156,6 +158,8 @@ export default function Hero() {
           <Button
             className={cx(classes.control, classes.secondaryControl)}
             size='lg'
+            
+            bg={'#1c76bc'}
             onClick={(event) => {
               // event.preventDefault();
               document.getElementById("contact").scrollIntoView({

@@ -134,7 +134,6 @@ export default function HeaderMiddle() {
   const [scrolled, setScrolled] = useState(false);
   const router = useRouter();
 
-
   // console.log(router);
   const { classes, cx } = useStyles();
   const theme = useMantineTheme();
@@ -189,7 +188,6 @@ export default function HeaderMiddle() {
     };
   }, [active]);
 
-
   // preping links for navigation
   const items = links.map((link) => (
     <CustomLink
@@ -241,11 +239,12 @@ export default function HeaderMiddle() {
               onClick={() => setActive(links[0].link)}
               href={"/"}>
               <Image
-                src={`/logo-${
-                  theme.colorScheme === "dark" ? "white" : "black"
-                }-noBG.svg`}
-                width={100}
-                height={100}
+                src='/logo.png'
+                // {`/logo-${
+                //   theme.colorScheme === "dark" ? "white" : "black"
+                // }-noBG.svg`}
+                width={80}
+                height={80}
                 priority
                 style={{
                   aspectRatio: "1/1",
@@ -268,8 +267,6 @@ export default function HeaderMiddle() {
               {items}
             </Group>
           </Flex>
-
-          
 
           <Flex>
             <Group

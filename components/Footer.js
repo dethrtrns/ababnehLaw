@@ -31,7 +31,7 @@ const useStyles = createStyles((theme) => ({
   },
 
   logo: {
-    marginTop: -60,
+    // marginTop: -60,
     width: 150,
     minWidth: 100,
     maxWidth: 200,
@@ -48,7 +48,7 @@ const useStyles = createStyles((theme) => ({
   },
 
   description: {
-    marginTop: -30,
+    // marginTop: -30,
 
     // [theme.fn.smallerThan("sm")]: {
     //   marginTop: theme.spacing.xs,
@@ -229,12 +229,13 @@ export default function Footer() {
       <Flex className={classes.inner}>
         <div className={classes.logo}>
           <Image
-            src={`/logo-${
-              theme.colorScheme === "dark" ? "color" : "color"
-              }-noBG.svg`}
+            src="/logo.png"
+            // {`/logo-${
+            //   theme.colorScheme === "dark" ? "color" : "color"
+            //   }-noBG.svg`}
             // height='150%'
-            width={180}
-            height={180}
+            width={100}
+            height={100}
             style={{
               aspectRatio: "1/1",
               borderRadius: "15%",
