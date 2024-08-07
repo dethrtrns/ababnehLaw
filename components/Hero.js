@@ -124,7 +124,7 @@ export default function Hero() {
             component='span'
             inherit
             className={classes.highlight}>
-            Ratna Associates
+            Ababneh Law
           </Text>
         </Title>
 
