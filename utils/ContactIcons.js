@@ -74,18 +74,18 @@ function ContactIcon({
 const MOCKDATA = [
   {
     title: "Email",
-    description: "ratnojasinghrathore141270@gmail.com",
+    description: "hisham@ababnehlaw.com",
     icon: IconAt,
   },
   {
     title: "Phone",
-    description: "+91 9450018830, 8960419918 ",
+    description: "+96 279 722 7253, +96 26 585 1133 ",
     icon: IconPhone,
   },
   {
     title: "Address",
     description:
-      "H.No-33, Shivlok Colony Nijampur Malhaur Lucknow, UTTAR PRADESH 226010, India",
+      "Husseini Building, 314 Zahran Street (between 7th and 8th Circle),9th Floor, Suite 911, Amman 11821,Jordan",
     icon: IconMapPin,
   },
   {

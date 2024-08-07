@@ -34,7 +34,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Ratna Associates</title>
+        <title>Ababneh Law & Arbitration(ALA)</title>
         <meta
           name='viewport'
           content='minimum-scale=1, initial-scale=1, width=device-width'

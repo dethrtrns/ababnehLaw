@@ -44,7 +44,7 @@ const useStyles = createStyles((theme) => ({
     color: theme.white,
     marginBottom: theme.spacing.xs,
     textAlign: "center",
-    fontFamily: `Greycliff CF, ${theme.fontFamily}`,
+    fontFamily: `Goudy Trajan Pro Bold, ${theme.fontFamily}`,
 
     "@media (max-width: 520px)": {
       fontSize: 28,
@@ -119,23 +119,36 @@ export default function Hero() {
 
       <div className={classes.inner}>
         <Title className={classes.title}>
-          Start your legal journey with{" "}
+          ABABNEH LAW &{" "}
           <Text
             component='span'
             inherit
             className={classes.highlight}>
-            Ababneh Law
+            ARBITRATION
           </Text>
         </Title>
 
         <Container size={640}>
           <Text
-            size='lg'
+            size='xl'
+            // c={"indigo"}
             className={classes.description}>
-            We are dedicated to provide effortless legal solutions for your
-            personal problems.With over 20 years of Experience in Family law we
-            provide swift justice with ease.
+            A leading business law firm serving public, private and
+            not-for-profit clients across key industries, offering creative
+            solutions to clients across Jordan and the MENA Region.
           </Text>
+          <Title
+            // c={"dark"}
+            fz={28}
+            className={classes.title}>
+            MORE THAN JUST{" "}
+            <Text
+              component='span'
+              inherit
+              className={classes.highlight}>
+              LAW
+            </Text>
+          </Title>
         </Container>
 
         <div className={classes.controls}>
@@ -158,8 +171,7 @@ export default function Hero() {
           <Button
             className={cx(classes.control, classes.secondaryControl)}
             size='lg'
-            
-            bg={'#1c76bc'}
+            bg={"#1c76bc"}
             onClick={(event) => {
               // event.preventDefault();
               document.getElementById("contact").scrollIntoView({

@@ -156,19 +156,24 @@ export default function ContactUs() {
   ));
 
   return (
-    <div id='contact' className={classes.wrapper}>
+    <div
+      id='contact'
+      className={classes.wrapper}>
       <SimpleGrid
         cols={2}
         sx={{
           opacity: 1,
         }}
         spacing={50}
-        breakpoints={[{ maxWidth: "sm", cols: 1 }]}
-      >
+        breakpoints={[{ maxWidth: "sm", cols: 1 }]}>
         <div>
           <Title className={classes.title}>Contact us</Title>
-          <Text className={classes.description} mt='sm' mb={30}>
-            We're available 24*7 at your service.
+          <Text
+            className={classes.description}
+            mt='sm'
+            mb={30}>
+            The highest quality counsel, decisive advice, and workable solutions
+            through our offices located in Amman - Jordan.
           </Text>
 
           <ContactIconsList variant='white' />
@@ -181,14 +186,12 @@ export default function ContactUs() {
               console.log(values);
               // form.reset;
               submitForm(values);
-            })}
-          >
+            })}>
             <Alert
               variant='filled'
               icon={<IconAlertCircle size={16} />}
               title='note'
-              color='teal'
-            >
+              color='teal'>
               We never share your information(personal or otherwise) without
               your consent.
             </Alert>
@@ -238,7 +241,9 @@ export default function ContactUs() {
                 animate
               />
             )}
-            <Group position='right' mt='md'>
+            <Group
+              position='right'
+              mt='md'>
               <Button
                 type='submit'
                 variant='gradient'
@@ -248,8 +253,7 @@ export default function ContactUs() {
                 compact={loading}
                 // onClick={submitForm}
                 leftIcon={<IconSend size={14} />}
-                className={classes.control}
-              >
+                className={classes.control}>
                 {loading ? "Sending" : "Send message"}
               </Button>
               {notify && (
@@ -259,8 +263,7 @@ export default function ContactUs() {
                   title={loading ? "Sending..." : "Success"}
                   loading={loading}
                   disallowClose={loading}
-                  onClose={() => setNotify(false)}
-                >
+                  onClose={() => setNotify(false)}>
                   We will get back to you ASAP.
                 </Notification>
               )}
