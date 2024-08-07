@@ -1,0 +1,29 @@
+{
+  "name": "abaneh_law_and_arbitration",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/server": "^11.10.0",
+    "@mantine/core": "^5.9.5",
+    "@mantine/ds": "^5.9.5",
+    "@mantine/form": "^5.10.2",
+    "@mantine/hooks": "^5.9.5",
+    "@mantine/next": "^5.9.5",
+    "@mantine/notifications": "^5.10.2",
+    "@next/font": "13.1.1",
+    "@tabler/icons": "^1.119.0",
+    "joi": "^17.7.0",
+    "next": "13.1.1",
+    "next-pwa": "^5.6.0",
+    "nodemailer": "^6.9.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
