@@ -46,7 +46,7 @@ export default function App({ Component, pageProps }) {
         <MantineProvider
           theme={{
             colorScheme: colorScheme,
-            primaryColor: colorScheme === "dark" ? "indigo" : "blue",
+            primaryColor: colorScheme === "dark" ? "blue" : "blue",
             secondaryColor: "gray",
           }}
           withGlobalStyles
