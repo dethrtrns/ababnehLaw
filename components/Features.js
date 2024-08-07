@@ -76,6 +76,8 @@ const useStyles = createStyles((theme) => ({
   },
 
   card: {
+    color: 'white',
+    backgroundColor: '#58595b',
     border: `1px solid ${
       theme.colorScheme === "dark" ? theme.colors.dark[5] : theme.colors.gray[1]
     }`,
