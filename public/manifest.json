@@ -1,32 +1,27 @@
 {
-    "theme_color": "#9013fe",
-    "background_color": "#bd10e0",
-    "display": "browser",
-    "scope": "/",
-    "start_url": "/",
-    "name": "Ratna Associates",
-    "short_name": "Ratna",
-    "description": "Start your legal journey with Ratna Associates We are dedicated to provide effortless legal solutions for your personal problems.With over 20 years of Experience in Family law we provide swift justice with ease.",
-    "icons": [
-        {
-            "src": "/icon-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "/icon-256x256.png",
-            "sizes": "256x256",
-            "type": "image/png"
-        },
-        {
-            "src": "/icon-384x384.png",
-            "sizes": "384x384",
-            "type": "image/png"
-        },
-        {
-            "src": "/icon-512x512.png",
-            "sizes": "512x512",
-            "type": "image/png"
-        }
-    ]
+  "theme_color": "#8936FF",
+  "background_color": "#2EC6FE",
+  "icons": [
+    {
+      "purpose": "maskable",
+      "sizes": "512x512",
+      "src": "icon512_maskable.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "any",
+      "sizes": "512x512",
+      "src": "icon512_rounded.png",
+      "type": "image/png"
+    }
+  ],
+  "orientation": "any",
+  "display": "standalone",
+  "dir": "auto",
+  "lang": "en-IN",
+  "scope": "/",
+  "start_url": "/",
+  "name": "ABABNEH LAW & ARBITRATION",
+  "short_name": "ALA",
+  "description": "A leading business law firm serving public, private and not-for-profit clients across key industries, offering creative solutions to clients across Jordan and the MENA Region."
 }
