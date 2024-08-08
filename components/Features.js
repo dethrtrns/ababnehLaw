@@ -119,7 +119,7 @@ export default function Features() {
       </Text>
       <Text
         size='sm'
-        color='dimmed'
+        // color='dimmed'
         mt='sm'>
         {feature.description}
       </Text>
