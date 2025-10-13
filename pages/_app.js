@@ -36,8 +36,8 @@ export default function App({ Component, pageProps }) {
       <Head>
         <title>Ababneh Law & Arbitration(ALA)</title>
         <meta
-          name='viewport'
-          content='minimum-scale=1, initial-scale=1, width=device-width'
+          name="viewport"
+          content="minimum-scale=1, initial-scale=1, width=device-width"
         />
       </Head>
       <ColorSchemeProvider
