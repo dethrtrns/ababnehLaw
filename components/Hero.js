@@ -14,8 +14,7 @@ const useStyles = createStyles((theme) => ({
     marginBottom: "500",
     paddingTop: 180,
     paddingBottom: 130,
-    backgroundImage:
-      "url(https://images.unsplash.com/photo-1589994965851-a8f479c573a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGxlZ2FsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60)",
+    backgroundImage: "url(/background.webp)",
     backgroundSize: "cover",
     // backgroundColor: theme.primaryColor,
     // backgroundBlendMode: "luminosity",
@@ -118,7 +117,7 @@ export default function Hero() {
       />
 
       <div className={classes.inner}>
-        <Title className={classes.title}>
+        <h1 className={classes.title}>
           ABABNEH LAW &{" "}
           <Text
             component='span'
@@ -126,21 +125,21 @@ export default function Hero() {
             className={classes.highlight}>
             ARBITRATION
           </Text>
-        </Title>
+        </h1>
 
         <Container size={640}>
-          <Text
-            size='xl'
+          <p
+
             // c={"indigo"}
             className={classes.description}>
             A leading business law firm serving public, private and
             not-for-profit clients across key industries, offering creative
             solutions to clients across Jordan and the MENA Region.
-          </Text>
-          <Title
-            mt={36}
+          </p>
+          <h2
+
             // c={"dark"}
-            fz={28}
+
             className={classes.title}>
             MORE THAN JUST{" "}
             <Text
@@ -149,7 +148,7 @@ export default function Hero() {
               className={classes.highlight}>
               LAW
             </Text>
-          </Title>
+          </h2>
         </Container>
 
         <div className={classes.controls}>
@@ -159,6 +158,7 @@ export default function Hero() {
             c={"white"}
             bg={"#58595b"}
             size='lg'
+            aria-label="Scroll to About Us section"
             onClick={(event) => {
               // event.preventDefault();
               document.getElementById("about").scrollIntoView({
@@ -173,6 +173,7 @@ export default function Hero() {
             className={cx(classes.control, classes.secondaryControl)}
             size='lg'
             bg={"#1c76bc"}
+            aria-label="Scroll to Contact Us section"
             onClick={(event) => {
               // event.preventDefault();
               document.getElementById("contact").scrollIntoView({

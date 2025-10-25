@@ -104,26 +104,29 @@ export default function Features() {
       shadow='md'
       radius='md'
       className={classes.card}
-      p='xl'>
+      p='xl'
+      component="article"
+      aria-label={feature.title}
+      >
       <feature.icon
         size={50}
         stroke={2}
         color={theme.fn.primaryColor()}
       />
-      <Text
-        size='lg'
-        weight={500}
+      <h3
+
+
         className={classes.cardTitle}
-        mt='md'>
+        >
         {feature.title}
-      </Text>
-      <Text
-        size='md'
+      </h3>
+      <p
+
         
         // color='dimmed'
-        mt='sm'>
+        >
         {feature.description}
-      </Text>
+      </p>
     </Card>
   ));
   return (
@@ -133,7 +136,10 @@ export default function Features() {
       }}
       id='about'
       size='lg'
-      py='xl'>
+      py='xl'
+      component="section"
+      aria-labelledby="features-title"
+      >
       <Group position='center'>
         <Badge
           variant='filled'
@@ -142,20 +148,21 @@ export default function Features() {
         </Badge>
       </Group>
 
-      <Title
-        order={2}
+      <h2
+
         className={classes.title}
-        align='center'
-        mt='sm'>
+
+        id="features-title"
+        >
         We provide legal counsel in a wide variety of
         <Text component="span" c={'blue'}> Corporate matters.</Text>
-      </Title>
+      </h2>
 
-      <Text
+      <p
         // color='dimmed'
         className={classes.description}
-        align='center'
-        mt='md'>
+
+        >
         Never has the Jordanian business landscape been as dynamic or
         competitive — nor has the global economy been as precarious. With these
         factors in mind, smart enterprises of all sizes recognize the need for
@@ -170,7 +177,7 @@ Whether a multi-hundred million dollar corporation, a startup seeking first-move
 Our clients know they can count on ALA’s experience and expertise in corporate and commercial law to give them real advantages in the incorporation, establishment and growth of their businesses. ALA designs and implements tax-efficient business structures that protect our clients’ interests while recognizing opportunities. Our business lawyers also collaborate with the firm’s employment and labor relations, real estate and property, intellectual property, banking and finance, insurance, commercial and transactional matters, regulatory issues and business solutions to ensure a well-rounded service.
 Clients looking to develop effective outsourcing strategies and draft binding business outsourcing agreements are well served by ALA’s outsourcing law specialists. We bring together experts in contracting, licensing, intellectual property, taxation, and other areas to deliver a complete solution that meets each client’s unique business goals. We have assisted companies that are seeking to outsource — as well as outsourcing providers — with joint ventures, strategic alliances and outsourcing arrangements.
 We also work with NGO’ and not-for-profit organizations and have extensive experience with in helping organizations meet their unique operational challenges and craft a strong legal foundation to build upon. ALA’s lawyers specialize in tax law as it applies to the not-for-profit sector and understand the regulatory framework and business challenges such entities face.`} */}
-      </Text>
+      </p>
 
       <SimpleGrid
         cols={3}

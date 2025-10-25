@@ -13,6 +13,7 @@ import ScrollTop from "../components/ScrollTop";
 import { use, useEffect, useState } from "react";
 import DisclaimerBox from "../components/DisclaimerBox";
 import { DisclaimerMantine } from "../components/DisclaimerMantine";
+import disclaimerStyles from '../styles/Disclaimer.module.css';
 // import styles from '../styles/Home.module.css'
 
 const inter = Inter({ subsets: ["latin"] });
@@ -57,40 +58,10 @@ export default function Home() {
         <link rel="icon" href="/logo.png" />
       </Head>
       {isOpen ? (
-        <div
-          style={{
-            position: "fixed",
-            top: 0,
-            left: 0,
-            width: "100%",
-            height: "100%",
-            // backgroundColor: "rgba(0, 0, 0, 0.7)",
-            backdropFilter: "blur(3px)",
-            zIndex: 1000,
-          }}
-        >
+        <div className={disclaimerStyles.modalOverlay}>
           <div
-            style={{
-              position: "fixed",
-              zIndex: 1000,
-              display: "flex",
-              flexDirection: "column",
-              width: "65%",
-              gap: "24px",
-              textAlign: "center",
-              margin: "20%",
-              marginTop: "10%",
-              justify: "center",
-              justifyContent: "space-between",
-              alignItems: "center",
-              border: "1px solid #1971c2",
-              padding: "20px",
-              borderRadius: "10px",
-              boxShadow: "0px 0px 10px 2px #1971c2",
-              backgroundColor: Theme.colors.gray[9],
-
-              transition: "opacity 5s ease-in-out, visibility 5s ease-in-out",
-            }}
+            className={disclaimerStyles.modalContent}
+            style={{ backgroundColor: Theme.colors.gray[9] }}
           >
             <DisclaimerMantine title="DISCLAIMER" />{" "}
             <Button w={200} variant="light" onClick={() => setIsOpen(false)}>

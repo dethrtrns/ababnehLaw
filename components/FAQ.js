@@ -84,12 +84,12 @@ export default function FAQ() {
               <Accordion.Item
                 className={classes.item}
                 value='another-account'>
-                <Accordion.Control>
+                <Accordion.Control id="faq-question-1">
                   <Text>
                     What to do when my spouse is Not willing to give divorce?
                   </Text>
                 </Accordion.Control>
-                <Accordion.Panel>
+                <Accordion.Panel role="region" aria-labelledby="faq-question-1">
                   If the matter is not resolved amicably and mutual consent is
                   not reached, firstly file a claim under S. 125 of CrPC for
                   maintenance. After that you can file for a contested divorce
@@ -101,12 +101,12 @@ export default function FAQ() {
               <Accordion.Item
                 className={classes.item}
                 value='newsletter'>
-                <Accordion.Control>
+                <Accordion.Control id="faq-question-2">
                   <Text>
                     What are the steps involved in Mutually agreed Divorce?
                   </Text>
                 </Accordion.Control>
-                <Accordion.Panel>
+                <Accordion.Panel role="region" aria-labelledby="faq-question-2">
                   First, Both spouses must have lived apart for at least six
                   months.
                   <br></br>
@@ -128,10 +128,10 @@ export default function FAQ() {
               <Accordion.Item
                 className={classes.item}
                 value='credit-card'>
-                <Accordion.Control>
+                <Accordion.Control id="faq-question-3">
                   <Text>Who gets the child's custody after divorce?</Text>
                 </Accordion.Control>
-                <Accordion.Panel>
+                <Accordion.Panel role="region" aria-labelledby="faq-question-3">
                   There are various types of custodies granted to parents, which
                   can include the following: <br></br> a) Physical custody: This
                   implies that one of the parents acts as a primary guardian and
@@ -153,14 +153,14 @@ export default function FAQ() {
               <Accordion.Item
                 className={classes.item}
                 value='payment'>
-                <Accordion.Control>
+                <Accordion.Control id="faq-question-4">
                   <Text>
 
                   How long do I have to wait after the marriage to file for
                   divorce?
                   </Text>
                 </Accordion.Control>
-                <Accordion.Panel>
+                <Accordion.Panel role="region" aria-labelledby="faq-question-4">
                   You can file for divorce only after completion of 1 year of
                   marriage based on the grounds given under the Hindu Marriage
                   Act. If your marriage is less than 1 year old, then you can

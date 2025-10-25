@@ -95,7 +95,11 @@ const useStyles = createStyles((theme) => ({
   },
 }));
 
-const social = [IconBrandTwitter, IconBrandYoutube, IconBrandInstagram];
+const social = [
+  { icon: IconBrandTwitter, label: "Twitter" },
+  { icon: IconBrandYoutube, label: "YouTube" },
+  { icon: IconBrandInstagram, label: "Instagram" },
+];
 
 const schema = Joi.object({
   email: Joi.string()
@@ -144,12 +148,13 @@ export default function ContactUs() {
     }, 4500);
   };
 
-  const icons = social.map((Icon, index) => (
+  const icons = social.map(({ icon: Icon, label }, index) => (
     <ActionIcon
       key={index}
       size={28}
       className={classes.social}
       variant='transparent'
+      aria-label={label}
     >
       <Icon size={22} stroke={1.5} />
     </ActionIcon>
@@ -188,6 +193,7 @@ export default function ContactUs() {
               submitForm(values);
             })}>
             <Alert
+              id="form-note"
               variant='filled'
               icon={<IconAlertCircle size={16} />}
               title='note'
@@ -201,8 +207,10 @@ export default function ContactUs() {
               placeholder='Type your email address here...'
               required
               classNames={{ input: classes.input, label: classes.inputLabel }}
+              aria-describedby="form-note email-description"
               {...form.getInputProps("email")}
             />
+            <p id="email-description" style={{ display: 'none' }}>required</p>
             <NumberInput
               label='Phone'
               placeholder='Type your contact number here...'
@@ -210,8 +218,10 @@ export default function ContactUs() {
               required
               hideControls
               classNames={{ input: classes.input, label: classes.inputLabel }}
+              aria-describedby="form-note phone-description"
               {...form.getInputProps("phone")}
             />
+            <p id="phone-description" style={{ display: 'none' }}>required</p>
             <TextInput
               label='Name'
               description='optional(to get in touch anonymously)'
